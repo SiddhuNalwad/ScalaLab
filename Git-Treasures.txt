@@ -29,6 +29,15 @@ git commit -m "Story 182: Fix benchmarks for speed"
 # skipping the staging area
 git commit -a -m 'added new benchmarks'
 
+# to get commit history
+git log
+
+# to get commit history one liners
+git log --pretty=oneline
+
+git log --pretty=format:"%h - %an, %ar : %s"
+
+
 
 
 

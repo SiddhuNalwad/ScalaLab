@@ -1,4 +1,6 @@
-object Scala_Playground {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(69); 
+import math._
+
+object Scala_Playground {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(84); 
   println("Welcome to the Scala worksheet");$skip(29); 
   
   println("Hello,World!");$skip(11); val res$0 = 
@@ -14,8 +16,8 @@ object Scala_Playground {;import org.scalaide.worksheet.runtime.library.Workshee
   
   'A'.toInt;System.out.println("""res5: Int = """ + $show(res$5));$skip(22); 
   
-  val x:BigInt = 9;System.out.println("""x  : BigInt = """ + $show(x ));$skip(19); 
-  val y:BigInt = 4;System.out.println("""y  : BigInt = """ + $show(y ));$skip(21); 
+  val x:BigInt = 9;System.out.println("""x  : scala.math.BigInt = """ + $show(x ));$skip(19); 
+  val y:BigInt = 4;System.out.println("""y  : scala.math.BigInt = """ + $show(y ));$skip(21); 
   val tuple = x /% y;System.out.println("""tuple  : (scala.math.BigInt, scala.math.BigInt) = """ + $show(tuple ));$skip(27); val res$6 = 
   
   //divident
@@ -23,6 +25,13 @@ object Scala_Playground {;import org.scalaide.worksheet.runtime.library.Workshee
   //remainder
   tuple._2;System.out.println("""res7: scala.math.BigInt = """ + $show(res$7));$skip(20); val res$8 = 
  
- "Bonjour".sorted;System.out.println("""res8: String = """ + $show(res$8))}
- 
+ "Bonjour".sorted;System.out.println("""res8: String = """ + $show(res$8));$skip(29); val res$9 = 
+
+
+//3 * 3 * 3 * 3
+	pow(3, 4);System.out.println("""res9: Double = """ + $show(res$9));$skip(11); val res$10 = 
+	
+	sqrt(2);System.out.println("""res10: Double = """ + $show(res$10));$skip(6); val res$11 = 
+	
+	Pi;System.out.println("""res11: Double(3.141592653589793) = """ + $show(res$11))}
 }
