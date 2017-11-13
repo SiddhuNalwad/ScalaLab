@@ -1,5 +1,8 @@
 package com.srigauri.scala.chapter10
 
+/**
+ * @author a365143
+ */
 abstract class Element {
   def contents: Array[String]
   def height: Int = contents.length
