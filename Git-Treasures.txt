@@ -29,6 +29,7 @@ git commit -m "Story 182: Fix benchmarks for speed"
 # skipping the staging area
 git commit -a -m 'added new benchmarks'
 
+<<<<<<< HEAD
 # to get commit history
 git log
 
@@ -38,6 +39,8 @@ git log --pretty=oneline
 git log --pretty=format:"%h - %an, %ar : %s"
 
 
+=======
+>>>>>>> 357c82d36f85b6d7abe76e1fc0c8db5eeee18091
 
 
 
